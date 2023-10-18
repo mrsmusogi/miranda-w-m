@@ -48,6 +48,16 @@ ul {
 	padding-left: 20px;
 }
 
+ol {
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
 li {
 	margin-right: 10px;
 }
