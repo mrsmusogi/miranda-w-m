@@ -44,7 +44,15 @@ p.indent {
 	font-size: 13px;
 	color: #ff9966;
 }
+p.sub {
+	font-size: 14px;
+	line-height: 1.4;
+}
 
+p.small {
+	font-size: 12px;
+	line-height: 1.4;
+}
 ul {
 	font-family: 'Inconsolata', monospace;
 	font-size: 14px;
