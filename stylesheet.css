@@ -30,6 +30,7 @@ h4 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 p {
 	font-family: 'Inconsolata', monospace;
 	width: 800px;
@@ -41,9 +42,10 @@ p {
 
 p.indent {
 	text-indent:50px;
-	font-size: 13px;
+	font-size: 14px;
 	color: #ff9966;
 }
+
 p.sub {
 	font-size: 14px;
 	line-height: 1.4;
@@ -53,6 +55,7 @@ p.small {
 	font-size: 12px;
 	line-height: 1.4;
 }
+
 ul {
 	font-family: 'Inconsolata', monospace;
 	font-size: 14px;
@@ -61,6 +64,8 @@ ul {
 	margin-right: auto;
 	list-style-type: disc;
 	padding-left: 20px;
+	line-height: 1;
+	padding-top: 10px;
 }
 
 ol {
@@ -75,6 +80,7 @@ ol {
 
 li {
 	margin-right: 10px;
+	padding-top: 10px;
 }
 
 a:link {
