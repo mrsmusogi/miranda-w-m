@@ -41,7 +41,7 @@ p {
 }
 
 p.indent {
-	text-indent:50px;
+	text-indent: 50px;
 	font-size: 14px;
 	color: #ff9966;
 }
