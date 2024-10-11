@@ -20,121 +20,86 @@
 </div>
 
 <style>
-	
-.container2 {
-    width: 800px;
-    height: 800px;
-    border: none;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    align-items: center;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .introcontainer {
-    width: 300px;
-    height: fit-content;
-    border-style: solid;
-    position: static;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Inconsolata', monospace;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1;
-      font-size: 12px;
-
-  }
-  .indentcontainer {
-    width: 600px;
-    height: fit-content;
-    border-style: inset;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    margin: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
-    text-align: left;
-    font-family: 'Inconsolata', monospace;
-      line-height: 1;
-      font-size: 12px;
-  }
-
-  .boldbox {
-    width: fit-content;
-    height: fit-content;
-    border-style: double;
-    text-align: left;
-    margin: 2px;
-    padding: 5px;
-    font-family: 'Inconsolata', monospace;
-      margin-left: 5px;
-      margin-right: 5px;
-      font-size: 12px;
-      font-weight: bold;
-    position: relative;
-  }
-    .arrow2 {
-        position: relative;
-            top: -10px;
-        align-self: center;
-        object-fit:fill;
-        width: 10px;
-        height: 80px;
+    .grid-container {
+        display: grid;
+        grid-template-rows: 800px 200px;
+        grid-template-columns: 1fr 4fr 4fr 1fr;
+        gap: 1rem;
+        margin: 20px;
+        
+    }
+    
+    .grid-item1 {
+        grid-column: 1 / span 2;
+        background-color: #fcf0ea;
+        border-style: solid;
+      
     }
 
-    .connection {
-        width: 360px;
-        height: fit-content;
-        border: dotted;
-        background: #f0a16c;
-        padding: 5px;
-        position: relative;
-            left: 500px;
-            top: -50px;
+    .grid-item2 {
+        grid-column: 3 / span 2;
+        background-color: #fcf0ea;
+        border-style: solid;
+   
+    }
+
+    .grid-item3{
+        grid-column: 1 / span 4;
+        background-color:  #FFFAFA;
+        border-style: solid;
+  
+    }
+
+
+    .flex-container {
+        display: flex;
+        align-items: space-around;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 15px;
         font-family: 'Inconsolata', monospace;
-            font-size: 12px;
+      
     }
- 
- 
 
 </style>
-</head>
-<body>
 
+<div class="grid-container">
 
-    <div class="container2">
-
-
-        <div class="boldbox"> The internet and networked communication</div><div class="indentcontainer">  Not as a natural accompaniment to our interactions but a profitable usurpation of them, and to some degree, a degradation of our communicative capacity. With nuance, I consider what is valuable (e.g. a global network) and what is damaging to our ability to meaningfully engage with one another (e.g. dominant social media platforms). I am interested in the notion of “hard work” that comes with undermining the commodified data-extracting internet - self-hosting, PGP keys, open-source software, VPNs etc. - and the pretence of smooth functionality, ease, and user-friendly interfaces that renders platforms opaque.</div>
-
-        <div class="boldbox">Nation-state sovereignty</div>
-            <div class="indentcontainer"> The larger political structures that maintain broader social relations, complicating class distinctions and re-enforcing ideological difference. I think also about what class means when there are asylum seekers housed on lethal barges and prevented from working, not even allowed access to a class relation located at the point of production, effectively denied access to class for transgressing the primacy of borders. I am interested in learning how states manage and surveil populations, the limitations of universal suffrage and democracy, and how national imaginaries supersede matters of political citizenship - who can go where, and at what cost.
-            </div>
-
-            <div class="boldbox">Psychoanalytic theory</div>
-            <div class="indentcontainer"> The challenge of navigating the perpetual ambiguity of other people in conversation. This also informs my engagement in facilitation, and questioning what use there might be in facilitating from a position of lack rather than mastery over a topic, theme or subject. Looking to create and utilise shared structures for conversation that means we can actually communicate from a shared position, rather than a uniquely individuated position.
-            </div>
-
-            <div class="boldbox">Alienation & Solidarity</div>
-            <div class="indentcontainer"> Establishing contexts that are not based on commodity exchange. With discontent increasingly internalised, I am thinking about what part conversation around a common theme might play in revealing solidarities. I take a general interest in political economy and collectively navigating material constraints to the production of art and active participation in politics. Where else can solidarities lie if we are pushed to specialise, if we cannot be equally located on the factory line? Where can we find shared value outside of shared productive value? 
-            </div>
-            
-            <div class="boldbox">Science fiction</div>
-            <div class="indentcontainer"> As a speculative enquiry into far-reaching potentialities, particularly of revolution and different ways of living together and relating to one another. My interest here also guides an enquiry into concepts of hope and utopia, currently I am not entirely sure that they are of benefit - and I’m thinking about hope as a counter-revolutionary affect that translates to toleration rather than action.
-            </div>
+    <div class="grid-item1 flex-container">
+        <div style="font-weight: bold;">Regeneration & Gentrification</div>
+        <div>I was born in London and continued to live in the city for the next 24 years of my life, over which time I saw the complete regeneration of Chinatown, Camden Town, where I spent a lot of time as a teenager, and Elephant & Castle, where I spent a lot of my adult life living in close proximity to.<br><br>I then moved to Norwich, when consultations for the regeneration of Anglia Square were taking place. I did an investigation into this process during my MA, during the Forensic Architecture Studio. Trying to find a permanent venue and speaking to property developers for Even also showed the unavoidable relation between the arts and regeneration.<br><br> I take an interest in the relationship between existing communities and proposed redevelopment schemes, considering what kind of approach leads to preventing displacement. I am particularly interested in the relationship between the arts and regeneration, the provision of meanwhile spaces as a method of displacement and gentrification. </div>
+        <div>
+            <ul>
+                <li>Elephant & Castle - Radical Film School <i>(Currently under construction!)</i></li>
+                <li><a href="angliasquare.html">Anglia Square - Forensic Architecture Studio</a></li>
+                <li>Film Programmes <i>(Currently under construction!)</i></li>
+            </ul>
+        </div>
 
     </div>
 
+    <div class="grid-item2 flex-container">
+        <div style="font-weight: bold;">Network Infrastructure, Protest & Digital Communication</div>
+        <div>I was on Tumblr a lot as a teenager, during the riot grrl revival and went to a lot of meet ups. This was peak social media for me. I did a module in Film & New Media which introduced me to a lot of critical writing on the internet and social media. <br> <br>Since then, I've taken a lot of interest in the possibilities for the internet as a global communication network beyond monopolised platforms. I use a lot of open-source software, self-teach myself to do code through small projects (like this website) and take a general interest in the opaque nature of user-friendly, "smooth" UIs, and the infrastructures that deliver the internet to us. <br><br>As a facilitator, I think a lot about how we communicate and the impacts of networks on our communicative capacity, and I pay attention to the omnipresence of the digital in the social.</div>
+        <div>
+            <ul>
+                <li> On network infrastructures <i>(Currently under construction!)</i></li>
+                <li> <a href="https://www.dispatchfmi.com/single-post/2020/07/24/visualising-blackness-handsworth-songs-and-documents-of-police-brutality">On the profitability of race and violence on social media</a></li>
+                <li> <a href="outpost.html">On the digital archiving of protest</a> </li>
+                <li> <a href="https://cinemayearzero.com/2023/05/01/were-all-going-to-the-worlds-fair/">On the impact of social media discourse on cinema</a></li>
+                <li> <a href="impakt.html">On reclaiming digital agency</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="grid-item3 flex-container">Now reading:
+        <ul>
+            <li>Capital, Vol 1 - Karl Marx</li>
+            <li>Neither Vertical Nor Horizontal - Rodrigo Nunes</li>
+            <li> The Magic Mountain - Thomas Mann</li>
+        </ul>
+    </div>
+</div>
 
 </body>
 </html>
